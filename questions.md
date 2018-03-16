@@ -14,32 +14,35 @@ For each of the following statements, say whether it is true or false and provid
 
 2.1 Given a two-player, turn-taking, zero-sum, fully observable game between two perfectly rational players, it does not help the first player's outcome to know what strategy the second player is using -- that is, what move the second player will make, given the first player's move.
 
-*...your answer here ...*
+False.  
+Knowing what move the second player will make gives the first player more information it can use to better maximize its chance at winning the game.
 
 2.2 Given a two-player, turn-taking, zero-sum, partially observable game between two perfectly rational players, it does not help the first player to know what move the second player will make, given the first player's move.
 
-*...your answer here ...*
+True.  
+This is because given that the game is only partially observable the first player doesn't know what effect any move will have on the other player. 
 
 2.3 A perfectly rational backgammon-playing agent with unlimited resources never loses.
 
-*...your answer here ...*
+False.  
+Due to the inclusion of a dice roll there is a luck factor to the game which means it isn't always possible to win every game. While it may make the best possible move given its roll it is still possible for it to lose.
 
 
 ## 3. Answer the following questions for our the game of Nim.
 
 3.1 For a Nim game with initial configuration [5,4,3], what is the shortest possible game in terms of plys?
 
-*...your answer here ...*
+Shortest possible game is 3 moves.
 
 3.2 For a Nim game with initial configuration [5,4,3], what is the longest possible game in terms of plys?
 
-*...your answer here ...*
+Longest possible game is 12 moves.
 
 3.3 For a Nim game with initial configuration [H1, H2, ... Hn] where the Hi values are all positive integers greater than 0 and n is greater than 0, what is the shortest possible game in terms of plys?
 
-*...your answer here ...*
+Shortest possible game is n moves where every move removes one heap.
 
 3.4 For a Nim game with initial configuration [H1, H2, ... Hn] where the Hi values are all positive integers greater than 0 and n is greater than 0, what is the longest possible game in terms of plys?
 
-*...your answer here ...*
+Longest possible game is the sum of all heaps from H1 to Hn, where each player takes turns removing only one from each heap at a time.
 
